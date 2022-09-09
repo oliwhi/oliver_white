@@ -6,7 +6,13 @@ aside:
 sidebar:
   nav: layouts
 ---
-
+<ul>
+  {% for r_post in site.research_posts %}
+    <li>
+      <a href="{{ r_post.url }}">{{ r_post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 ## Topic Uno
 This is a research item
 
