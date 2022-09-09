@@ -1,3 +1,6 @@
+---
+title=Oliver White
+---
 # Oliver White
 
 Welcome to my page
