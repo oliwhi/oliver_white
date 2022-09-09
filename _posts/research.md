@@ -1,10 +1,12 @@
 ---
 layout: article
-title: Page - Sidebar
+title: Research
 aside:
   toc: true
 sidebar:
   nav: layouts
 ---
 
-Hello,
+## Spectral
+
+# Yes
