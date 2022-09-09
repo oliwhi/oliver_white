@@ -1,8 +1,3 @@
----
-layout: post
-title: Home
----
-
 # Oliver White
 
 Welcome to my page
