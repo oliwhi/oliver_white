@@ -1,5 +1,5 @@
 ---
-title=Oliver White
+title: Oliver White
 ---
 # Oliver White
 
