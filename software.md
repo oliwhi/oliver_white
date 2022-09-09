@@ -3,6 +3,4 @@
 ## Machine Learning
 
 
-
-
 ## Image Analysis
