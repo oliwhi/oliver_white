@@ -9,4 +9,4 @@ sidebar:
 
 ## Spectral
 
-# Yes
+### Yes
