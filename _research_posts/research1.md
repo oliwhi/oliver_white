@@ -2,7 +2,6 @@
 layout: article
 title: Research Post 1
 show_title: true
-permalink: https://oliwhi.github.io/oliver_white/research/:title
 ---
 
 # Research 1
