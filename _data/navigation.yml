@@ -1,14 +1,16 @@
 header:
 
-  - titles:
-      en      : &EN       Writing
-    url: /writing.html
     
   - titles:
       # @start locale config
       en      : &EN       Research
       # @end locale config
     url: /research.html
+
+  - titles:
+      en      : &EN       Writing
+    url: /writing.html
+
 
   - titles:
       # @start locale config
