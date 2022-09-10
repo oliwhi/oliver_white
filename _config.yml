@@ -67,6 +67,10 @@ paths:
   archive : /research.html # "/research.html" (default)
   rss     : # "/feed.xml" (default)
 
+collections:
+  research_posts:
+    output: true
+
 
 ## => Post
 ##############################
