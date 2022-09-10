@@ -5,8 +5,8 @@ title: Research
 #    excerpt_type: html
 ---
 
-{% for item in site.research_posts %}
+{% for item in research_posts %}
   <h2>{{ item.title }}</h2>
   #<p>{{ item.description }}</p>
-  <p><a href="https://oliwhi.github.io/oliver_white/{{ item.url }}">{{ item.title }}</a></p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
 {% endfor %}
