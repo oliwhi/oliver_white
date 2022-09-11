@@ -10,3 +10,8 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: screenshot.jpg
 ---
+{% for item in posts %}
+  <h2>{{ item.title }}</h2>
+  #<p>{{ item.description }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}
