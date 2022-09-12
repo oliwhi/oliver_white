@@ -3,6 +3,7 @@ layout: article
 title: Research Post 1
 show_title: true
 key: research
+tag: Research
 ---
 
 # Research Post 1 h1
