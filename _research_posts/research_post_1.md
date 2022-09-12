@@ -5,7 +5,7 @@ show_title: true
 key: research
 ---
 
-<h1> {{title}} <\h1>
+# Research Post 1 h1
 
 This is research on such and such
 
