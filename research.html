@@ -5,6 +5,8 @@ show_title: true
 type: normal
 data_source: 
   research_posts
+articles:
+  excerpt_type: html
 ---
 
 <h1> Hello World </h1>
@@ -12,6 +14,6 @@ data_source:
 {% for item in site.research_posts %}
   <h2>{{ item.title }}</h2>
   <p>{{ item.description }}</p>
-  <p><a href="{{ site.baseurl }}{{ item.url }}">Read more..</a></p>
-  <p>{{ item.tags }}{:.info} </p>
+  <p><a href="{{ site.baseurl }}{{ item.url }}">Read more...</a></p>
+  <p><a {{ item.tags }} </p>
 {% endfor %}
