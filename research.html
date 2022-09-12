@@ -2,13 +2,14 @@
 layout: articles
 title: Research
 type: normal
+key: research
 data_source: 
   research_posts
 ---
 
 <h1> Hello World </h1>
 
-{% for item in site.research_posts %}
+{% for item in research_posts %}
   <h2>{{ item.title }}</h2>
   #<p>{{ item.description }}</p>
   <p><a href="{{ item.url }}">{{ item.title }}</a></p>
