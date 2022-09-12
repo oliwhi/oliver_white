@@ -7,8 +7,9 @@ key: research
 
 <h1> {{title}} <\h1>
 
-This is research on...
+This is research on such and such
 
+<!--more-->
 blag
 
 
