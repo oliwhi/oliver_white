@@ -1,15 +1,16 @@
 ---
 layout: articles
 title: Research
+show_title: true
 type: normal
 data_source: 
   research_posts
 ---
 
-# Hello World
+<h1> Hello World </h1>
 
 {% for item in site.research_posts %}
   <h2>{{ item.title }}</h2>
   #<p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  <p><a href="{{ item.baseurl }} {{ item.url }}">{{ item.title }}</a></p>
 {% endfor %}
