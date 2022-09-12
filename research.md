@@ -6,7 +6,7 @@ data_source:
   research_posts
 ---
 
-<h1> Hello World </h1>
+# Hello World
 
 {% for item in site.research_posts %}
   <h2>{{ item.title }}</h2>
