@@ -68,7 +68,8 @@ paths:
   rss     : # "/feed.xml" (default)
 
 collections:
-  - research_posts
+  research_posts:
+    output: true
 
 
 ## => Post
