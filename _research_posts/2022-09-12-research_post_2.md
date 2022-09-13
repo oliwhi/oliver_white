@@ -2,7 +2,7 @@
 layout: article
 title: Machine Learning Post
 show_title: true
-tags: research, machine-learning
+tags: Research, Machine Learning
 ---
 
 What a cool thing
