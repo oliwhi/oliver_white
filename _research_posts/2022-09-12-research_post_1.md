@@ -5,7 +5,7 @@ show_title: true
 key: research
 tag: Research
 sidebar:
-  nav: research_posts
+  nav: layouts
 description: research post 1 description
 ---
 
