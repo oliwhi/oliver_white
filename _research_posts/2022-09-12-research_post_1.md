@@ -2,12 +2,11 @@
 layout: article
 title: Research Post 1
 show_title: true
-key: research
-tag: Research
+tags: Research
+key: page-sidebar
 sidebar:
-  nav:
-    toc: true
-description: research post 1 description
+  nav: layouts
+#description: research post 1 description
 ---
 
 
