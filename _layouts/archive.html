@@ -29,10 +29,8 @@ titles:
 <div class="layout--archive js-all">
   {%- include tags.html -%}
   <div class="js-result layout--archive__result d-none">
-    <h2>Research Archive</h2>
     {%- include article-list.html articles=site.research_posts,site.posts type='brief' show_info=true reverse=true group_by='year' -%}
-    <h2>Writing Archive</h2>
-    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
+
 
   </div>
 </div>
