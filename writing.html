@@ -1,5 +1,19 @@
 ---
-layout: home
+layout: articles
 title: Writing
 show_title: true
+type: normal
+data_source:
+  posts
+articles:
+  excerpt_type: html
+show_excerpt: true
 ---
+
+<h1> Hello World </h1>
+
+{% for item in site.posts %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+  <p><a href="{{ site.baseurl }}{{ item.url }}">Read more...</a></p>
+{% endfor %}
