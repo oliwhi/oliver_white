@@ -3,6 +3,7 @@ layout: article
 title: Research Post 1
 show_title: true
 tags: Research
+catagory: research
 key: page-sidebar
 sidebar:
   nav: layouts
