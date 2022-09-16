@@ -1,6 +1,7 @@
 ---
 title: Post with Header Image
 tags: TeXt
+catagory: research
 article_header:
   type: cover
   image:
