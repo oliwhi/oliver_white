@@ -16,9 +16,9 @@ article_header:
     src: screenshot.jpg
 ---
 
-{% for item in site.research_posts %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ site.baseurl }}{{ item.url }}">Read more...</a></p>
-<p>{{ item.catagory }}</p>
+{% for item in site.posts %}
+  {% if item.catagory == 'research %}
+    <h2>{{ item.title }}</h2>
+    <p>{{ item.description }}</p>
+    <p><a href="{{ site.baseurl }}{{ item.url }}">Read more...</a></p>
 {% endfor %}
