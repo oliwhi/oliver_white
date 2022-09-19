@@ -14,7 +14,7 @@ header:
     
   - titles:
       en      : &EN       Art
-    url: /art.html
+    url: /art.md
     
 
   - titles:
