@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Research Post 1
+title: The Body and Light
 show_title: true
 tags: Research
 catagory: research
@@ -10,7 +10,6 @@ aside:
 ---
 
 
-This is research on such and such
 
 <!--more-->
 
