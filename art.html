@@ -1,0 +1,25 @@
+---
+layout: articles
+title: Research
+show_title: true
+data_source: site.research_posts
+articles:
+  type: grid
+  show_info: true
+  excerpt_type: html
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: screenshot.jpg
+---
+
+{% for item in site.posts %}
+  {% if item.catagory == "art" %}
+    <h2>{{ item.title }}</h2>
+    <p>{{ item.description }}</p>
+    <p><a href="{{ site.baseurl }}{{ item.url }}">View</a></p>
+  {%- endif -%}
+{% endfor %}
