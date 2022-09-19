@@ -11,6 +11,11 @@ header:
       en      : &EN       Writing
     url: /writing.html
     
+    
+  - titles:
+      en      : &EN       Art
+    url: /art.html
+    
   - titles:
       en      : &EN       Archive
     url: /archive.html
