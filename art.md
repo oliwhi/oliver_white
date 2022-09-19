@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: Art
 show_title: true
 ---
