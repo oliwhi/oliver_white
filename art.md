@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: Art
 show_title: true
 article_header:
