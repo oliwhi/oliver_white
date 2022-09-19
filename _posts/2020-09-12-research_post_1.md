@@ -5,6 +5,8 @@ show_title: true
 tags: Research
 catagory: research
 key: page-sidebar
+excerpt: >
+  Research post body and light excerpt
 aside:
   toc: true
 ---
