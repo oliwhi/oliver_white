@@ -16,9 +16,6 @@ header:
       en      : &EN       Art
     url: /art.html
     
-  - titles:
-      en      : &EN       Archive
-    url: /archive.html
 
   - titles:
       # @start locale config
@@ -45,3 +42,7 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
+
+  - titles:
+      en      : &EN       Archive
+    url: /archive.html
