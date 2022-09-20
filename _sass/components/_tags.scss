@@ -3,7 +3,6 @@
     @include clickable($text-color-3, $main-color-3, default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
     & > .tag-button__count {
       display: inline-block;
-      background-color: #00FFFF;
       margin-left: map-get($spacers, 1);
       font-size: map-get($base, font-size-xs);
       line-height: 1;
@@ -12,6 +11,7 @@
   }
   .tag-button-1 {
     @include clickable($text-color-1, rgba($main-color-1, .4), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+      background-color: #00FFFF;
   }
   .tag-button-2 {
     @include clickable($text-color-1, rgba($main-color-1, .55), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
