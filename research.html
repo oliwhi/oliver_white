@@ -18,9 +18,7 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: screenshot.jpg
 ---
-hr.new1 {
-  border-top: 1px solid gray;
-}
+
 {% for item in site.posts %}
   {% if item.catagory == "research" %}
     <br>
@@ -28,6 +26,6 @@ hr.new1 {
     <h2>{{ item.title }}</h2>
     <p>{{ item.description }}</p>
     <p><a href="{{ site.baseurl }}{{ item.url }}">Read more...</a></p>
-    <hr class="new1">
+    <hr style="width:50%;text-align:left;margin-left:0;color:$main-color-theme-light">
   {%- endif -%}
 {% endfor %}
