@@ -23,17 +23,10 @@ article_header:
   {% if item.catagory == "research" %}
     <br>
     <br>
-    <h2>{{ item.title }}</h2>
+<h2><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h2>
     <p>{{ item.description }}</p>
     <br>
-    {%- for _tag in item.tags -%}
-      {%- assign _tag_encode = _tag | strip | url_encode -%}
-      {%- if forloop.last -%}
-        {%- assign _tags = _tags | append: _tag_encode -%}
-      {%- else -%}
-        {%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
-      {%- endif -%}
-    {%- endfor -%}
+    <p>{{ item.tag }} <p>
     <p><a href="{{ site.baseurl }}{{ item.url }}">Read more</a></p>
     <hr style="width:100%;height:0.2px;text-align:left;margin-left:0;color:$main-color-3">
   {%- endif -%}
