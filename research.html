@@ -18,35 +18,37 @@ article_header:
     gradient: 'linear-gradient(225deg, rgba(0, 0, 0 , .4), rgba(255, 255, 255, .1))'
     src: screenshot.jpg
 ---
-{%- for _article in site.posts -%}
-  {%- if _article.catagory == "research" -%}
-    {%- include snippets/prepend-baseurl.html path=_article.url -%}
-    {%- assign _article_url = __return -%}
-    <br>
-    <br>
-    <article class="item" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="item__content">
-        <header><a href="{{ _article_url }}"><h2 itemprop="headline" class="item__header">{{ _article.title }}</h2></a></header>
-        <div class="item__description">
-          <div class="article__content" itemprop="description articleBody">
-          {{ _article.excerpt }}
+<div class="article-list items">
+  {%- for _article in site.posts -%}
+    {%- if _article.catagory == "research" -%}
+      {%- include snippets/prepend-baseurl.html path=_article.url -%}
+      {%- assign _article_url = __return -%}
+      <br>
+      <br>
+      <article class="item" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="item__content">
+          <header><a href="{{ _article_url }}"><h2 itemprop="headline" class="item__header">{{ _article.title }}</h2></a></header>
+          <div class="item__description">
+            <div class="article__content" itemprop="description articleBody">
+            {{ _article.excerpt }}
+            </div>
+            <p><a href="{{ _article_url }}">{{ _locale_readmore }}</a></p>
           </div>
-          <p><a href="{{ _article_url }}">{{ _locale_readmore }}</a></p>
+          {%- include snippets/assign.html target=site.data.variables.default.page.pageview source0=_article.pageview -%}
+          {%- assign _show_pageview = __return -%}
+          {%- include article-info.html article=_article show_pageview=_show_pageview -%}
         </div>
-        {%- include snippets/assign.html target=site.data.variables.default.page.pageview source0=_article.pageview -%}
-        {%- assign _show_pageview = __return -%}
-        {%- include article-info.html article=_article show_pageview=_show_pageview -%}
-      </div>
-    </article>
+      </article>
 
-    {%- assign _tags = '' -%}
-    {%- for _tag in _article.tags -%}
-      {%- assign _tag_encode = _tag | strip | url_encode -%}
-      {%- if forloop.last -%}
-        {%- assign _tags = _tags | append: _tag_encode -%}
-      {%- else -%}
-        {%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
-{%- endfor -%}
+      {%- assign _tags = '' -%}
+      {%- for _tag in _article.tags -%}
+        {%- assign _tag_encode = _tag | strip | url_encode -%}
+        {%- if forloop.last -%}
+          {%- assign _tags = _tags | append: _tag_encode -%}
+        {%- else -%}
+          {%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+</div>
