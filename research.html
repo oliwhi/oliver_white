@@ -54,11 +54,5 @@ article_header:
       <section><h2 class="article-list__group-header">{{ _currentdate }}</h2><ul class="items">
       {%- assign _date = _currentdate -%}
     {%- endif -%}
-    {%- include snippets/get-locale-string.html key='ARTICLE_LIST_DATE_FORMAT' -%}
-    <li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="{{ _tags }}">
-      <div class="item__content">
-        <span class="item__meta">{{ _article.date | date: __return }}</span>
-        <a itemprop="headline" class="item__header" href="{{ _article_url }}">{{ _article.title }}</a></div>
-    </li>
   {%- endif -%}
 {%- endfor -%}
