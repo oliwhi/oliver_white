@@ -26,7 +26,7 @@ article_header:
     <header><a href="{{ site.baseurl }}{{ item.url }}"><h2 itemprop="headline" class="item__header">{{ item.title }}</h2></a></header>
     <p>{{ item.description }}</p>
     <br>
-    <ul>
+    <ul class="menu menu--nowrap">
     {%- for _tag in item.tags -%}
       <li><button type="button" class="button button--pill tag-button tag-button-1" onclick="document.location='https://oliwhi.github.io/oliver_white/archive.html?tag={{ _tag }}'">
         </button>
