@@ -32,7 +32,7 @@ article_header:
             <div class="article__content" itemprop="description articleBody">
             {{ _article.excerpt }}
             </div>
-            <p><a href="{{ _article_url }}">{{ _locale_readmore }}</a></p>
+            <p><a href="{{ _article_url }}">Read more</a></p>
           </div>
           {%- include snippets/assign.html target=site.data.variables.default.page.pageview source0=_article.pageview -%}
           {%- assign _show_pageview = __return -%}
