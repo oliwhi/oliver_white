@@ -23,8 +23,6 @@ article_header:
     {%- if _article.catagory == "research" -%}
       {%- include snippets/prepend-baseurl.html path=_article.url -%}
       {%- assign _article_url = __return -%}
-      <br>
-      <br>
       <article class="item" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="item__content">
           <header><a href="{{ _article_url }}"><h2 itemprop="headline" class="item__header">{{ _article.title }}</h2></a></header>
