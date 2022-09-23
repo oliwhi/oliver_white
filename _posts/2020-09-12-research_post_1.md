@@ -2,6 +2,7 @@
 layout: article
 title: The Body and Light
 show_title: true
+show_edit_on_github: false
 tags: Research
 catagory: research
 key: page-sidebar
