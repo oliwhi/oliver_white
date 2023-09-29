@@ -20,9 +20,9 @@ text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://oliwhi.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : /oliver_white # does not include hostname
-title   : Oliver White
+title   : o.s.w
 description: > # this means to ignore newlines until "Language & timezone"
-  Site Description Goes here
+  Welcome to o.s.w. 
 
 
 ## => Language and Timezone
