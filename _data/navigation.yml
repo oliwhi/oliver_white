@@ -3,23 +3,23 @@ header:
     
   - titles:
       # @start locale config
-      en      : &EN       Research
+      en      : &EN       research
       # @end locale config
     url: /research.html
 
   - titles:
-      en      : &EN       Writing
+      en      : &EN       writing
     url: /writing.html
     
     
   - titles:
-      en      : &EN       Art
+      en      : &EN       art
     url: /art.html
     
 
   - titles:
       # @start locale config
-      en      : &EN       About
+      en      : &EN       about
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -44,5 +44,5 @@ header:
     url: /about.html
 
   - titles:
-      en      : &EN       Archive
+      en      : &EN       archive
     url: /archive.html
