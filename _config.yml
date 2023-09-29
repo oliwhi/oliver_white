@@ -204,6 +204,7 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+  - /removed_posts
 
 defaults:
   - scope:
