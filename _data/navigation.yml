@@ -3,9 +3,9 @@ header:
     
   - titles:
       # @start locale config
-      en      : &EN       research
+      en      : &EN       projects
       # @end locale config
-    url: /research.html
+    url: /projects.html
 
   - titles:
       en      : &EN       writing
