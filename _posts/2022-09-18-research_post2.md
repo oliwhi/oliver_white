@@ -3,8 +3,8 @@ layout: article
 title: Research Post 2
 show_title: true
 show_edit_on_github: false
-tags: Research
-catagory: research
+tags: Projects
+catagory: projects
 key: page-sidebar
 aside:
   toc: true

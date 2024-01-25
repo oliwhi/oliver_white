@@ -1,6 +1,6 @@
 ---
 layout: articles
-title: research
+title: projects
 show_title: true
 data_source: site.research_posts
 articles:
@@ -23,7 +23,7 @@ article_header:
 </p>
 <div class="article-list items items--divided">
   {%- for _article in site.posts -%}
-    {%- if _article.catagory == "research" -%}
+    {%- if _article.catagory == "projects" -%}
       {%- include snippets/prepend-baseurl.html path=_article.url -%}
       {%- assign _article_url = __return -%}
       <article class="item" itemscope itemtype="http://schema.org/BlogPosting">
