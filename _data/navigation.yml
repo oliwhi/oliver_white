@@ -1,4 +1,9 @@
 header:
+  - titles:
+      # @start locale config
+      en      : &EN       home
+      # @end locale config
+    url: /index.html
 
     
   - titles:
