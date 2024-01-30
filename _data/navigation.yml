@@ -47,9 +47,7 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
-  - titles:
-      en    : &EN     resume
-    url: /resume.html
+
   - titles:
       en      : &EN       archive
     url: /archive.html
