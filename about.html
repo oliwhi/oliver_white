@@ -21,110 +21,106 @@ article_header:
 about me...
 
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Resume</title>
-  <style>
-      body {
-          font-family: Arial, sans-serif;
-          line-height: 1.6;
-          margin: 20px;
-          padding: 0;
-          display: flex;
-          justify-content: center;
-      }
-      .container {
-          width: 800px;
-          display: flex;
-          justify-content: space-between;
-      }
-      .left-column, .right-column {
-          width: 48%;
-      }
-      header, section, footer {
-          margin-bottom: 20px;
-      }
-      h1, h2, h3, h4, h5 {
-          margin-bottom: 10px;
-      }
-      p {
-          margin: 10px 0;
-      }
-      ul {
-          list-style-type: none;
-          padding: 0;
-      }
-      .header {
-          text-align: center;
-      }
-      .contact {
-          margin-bottom: 30px;
-      }
-      .education, .experience, .skills {
-          margin-bottom: 20px;
-      }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 20px;
+        }
+        .left-column {
+            padding-right: 20px;
+            border-right: 1px solid #ffffff;
+        }
+        h1, h2, h3, h4, h5 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+        }
+        .contact {
+            margin-bottom: 30px;
+        }
+        .education, .experience, .skills {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
 
-  <div class="container">
+    <div class="container">
 
-      <div class="left-column">
+        <div class="left-column">
+            <header class="header">
+                <h1>Your Name</h1>
+                <p>Web Developer</p>
+            </header>
 
-          <header class="header">
-              <h1>Your Name</h1>
-              <p>Web Developer</p>
-          </header>
+            <section class="contact">
+                <h2>Contact Information</h2>
+                <p>Email: your.email@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>LinkedIn: linkedin.com/in/yourname</p>
+                <p>GitHub: github.com/yourusername</p>
+            </section>
 
-          <section class="contact">
-              <h2>Contact Information</h2>
-              <p>Email: your.email@example.com</p>
-              <p>Phone: (123) 456-7890</p>
-              <p>LinkedIn: linkedin.com/in/yourname</p>
-              <p>GitHub: github.com/yourusername</p>
-          </section>
+            <section class="education">
+                <h2>Education</h2>
+                <p><strong>Degree in Computer Science</strong></p>
+                <p>University Name, Graduation Year</p>
+            </section>
+        </div>
 
-          <section class="education">
-              <h2>Education</h2>
-              <p><strong>Degree in Computer Science</strong></p>
-              <p>University Name, Graduation Year</p>
-          </section>
+        <div>
+            <section class="experience">
+                <h2>Work Experience</h2>
+                <p><strong>Web Developer</strong></p>
+                <p>Company Name, Start Date - End Date</p>
+                <ul>
+                    <li>Responsibility/Accomplishment 1</li>
+                    <li>Responsibility/Accomplishment 2</li>
+                </ul>
+            </section>
 
-      </div>
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript, jQuery</li>
+                    <li>Responsive Web Design</li>
+                    <li>Version Control (Git)</li>
+                    <li>Web Development Frameworks (e.g., Bootstrap)</li>
+                </ul>
+            </section>
 
-      <div class="right-column">
+            <footer>
+                <p>References available upon request</p>
+            </footer>
+        </div>
 
-          <section class="experience">
-              <h2>Work Experience</h2>
-              <p><strong>Web Developer</strong></p>
-              <p>Company Name, Start Date - End Date</p>
-              <ul>
-                  <li>Responsibility/Accomplishment 1</li>
-                  <li>Responsibility/Accomplishment 2</li>
-              </ul>
-          </section>
-
-          <section class="skills">
-              <h2>Skills</h2>
-              <ul>
-                  <li>HTML5, CSS3</li>
-                  <li>JavaScript, jQuery</li>
-                  <li>Responsive Web Design</li>
-                  <li>Version Control (Git)</li>
-                  <li>Web Development Frameworks (e.g., Bootstrap)</li>
-              </ul>
-          </section>
-
-          <footer>
-              <p>References available upon request</p>
-          </footer>
-
-      </div>
-
-  </div>
+    </div>
 
 </body>
+
 
 
 
