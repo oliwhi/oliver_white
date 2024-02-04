@@ -1,318 +1,99 @@
----
-layout: articles
-title: about
-key: page-about
-show_title: true
-data_source: site.posts
-articles:
-  type: brief
-  show_info: true
-  excerpt_type: html
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    gradient: 'linear-gradient(225deg, rgba(0, 0, 0 , .4), rgba(255, 255, 255, .1))'
-    src: screenshot.jpg
----
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Resume</title>
-  <style>
-      body {
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-          background-color: #121212;
-          color: #ffffffb7;
-      }
-      .header {
-          text-align: center;
-          padding: 40px 0;
-          background-color: #333333;
-      }
-      .container {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          padding: 20px;
-      }
-      h1, h2, h3, h4, h5 {
-          margin-bottom: 10px;
-      }
-      p {
-          margin: 10px 0;
-      }
-      ul {
-          list-style-type: none;
-          padding: 0;
-      }
-      .content {
-          padding: 20px;
-      }
-      .education, .experience, .skills {
-          margin-bottom: 20px;
-      }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <link rel="stylesheet" href="your-pre-styled-theme.css"> <!-- Link to your pre-styled CSS theme -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000000; /* Text color compatible with the pre-styled theme */
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #333333; /* Header background color compatible with the pre-styled theme */
+            color: #ffffff; /* Header text color compatible with the pre-styled theme */
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr; /* Two columns with the left one being 1/3 the size of the right */
+            padding: 20px;
+        }
+        h1, h2, h3, h4, h5 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .left-column {
+            padding-right: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .education, .experience, .skills {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
 
-  <div class="header">
-      <h1>Your Name</h1>
-      <p>Web Developer</p>
-  </div>
+    <div class="header">
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+    </div>
 
-  <div class="container">
-      <div class="content">
-          <section class="contact">
-              <h2>Contact Information</h2>
-              <p>Email: your.email@example.com</p>
-              <p>Phone: (123) 456-7890</p>
-              <p>LinkedIn: linkedin.com/in/yourname</p>
-              <p>GitHub: github.com/yourusername</p>
-          </section>
+    <div class="container">
+        <div class="left-column">
+            <section class="contact">
+                <h2>Contact Information</h2>
+                <p>Email: your.email@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>LinkedIn: linkedin.com/in/yourname</p>
+                <p>GitHub: github.com/yourusername</p>
+            </section>
 
-          <section class="education">
-              <h2>Education</h2>
-              <p><strong>Degree in Computer Science</strong></p>
-              <p>University Name, Graduation Year</p>
-          </section>
-      </div>
+            <section class="education">
+                <h2>Education</h2>
+                <p><strong>Degree in Computer Science</strong></p>
+                <p>University Name, Graduation Year</p>
+            </section>
+        </div>
 
-      <div class="content">
-          <section class="experience">
-              <h2>Work Experience</h2>
-              <p><strong>Web Developer</strong></p>
-              <p>Company Name, Start Date - End Date</p>
-              <ul>
-                  <li>Responsibility/Accomplishment 1</li>
-                  <li>Responsibility/Accomplishment 2</li>
-              </ul>
-          </section>
+        <div class="content">
+            <section class="experience">
+                <h2>Work Experience</h2>
+                <p><strong>Web Developer</strong></p>
+                <p>Company Name, Start Date - End Date</p>
+                <ul>
+                    <li>Responsibility/Accomplishment 1</li>
+                    <li>Responsibility/Accomplishment 2</li>
+                </ul>
+            </section>
 
-          <section class="skills">
-              <h2>Skills</h2>
-              <ul>
-                  <li>HTML5, CSS3</li>
-                  <li>JavaScript, jQuery</li>
-                  <li>Responsive Web Design</li>
-                  <li>Version Control (Git)</li>
-                  <li>Web Development Frameworks (e.g., Bootstrap)</li>
-              </ul>
-          </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript, jQuery</li>
+                    <li>Responsive Web Design</li>
+                    <li>Version Control (Git)</li>
+                    <li>Web Development Frameworks (e.g., Bootstrap)</li>
+                </ul>
+            </section>
 
-          <footer>
-              <p>References available upon request</p>
-          </footer>
-      </div>
-  </div>
+            <footer>
+                <p>References available upon request</p>
+            </footer>
+        </div>
+    </div>
 
 </body>
-
-
-
-
-
-
-<h1>Resume</h1>
-<p>You can download my resume <a href="Resume_Updated_1.pdf">here</a>.</p>
-<hr>
-<h2>Education</h2>
-<h4>BSc. Physics</h4>
-<h6>Minor in Nanotechnology</h6>
-<hr>
-<h4>BSc. Natural Sciences</h4>
-<h6>Double Concentration in Energy Science & Mathematics</h6>
-<hr>
-<h4>MSc. Electrical Engineering</h4>
-<h6>Thesis Based: Extremely Low Frequency Detection for Biometric Sensing</h6>
-<hr>
-<h2>Experience</h2>
-<h3>Junior Autonomous Systems and Data Engineer</h3>
-<h4>Open Ocean Robotics</h4>
-
-
-<h2>Skills</h2>
-<div>
-  <ul class="columns" data-columns="3" width="40%">
-      <li>A</li>
-      <li>B</li>
-      <li>C</li>
-      <li>D</li>
-      <li>E</li>
-      <li>F</li>
-      <li>G</li>
-      <li>G</li>
-      <li>G</li>
-      <li>G</li>
-      <li>G</li>
-      <li>G</li>
-      <li>G</li>
-      <li>G</li>
-      <li>G</li>
-  </ul>
-</div>
-
-
-<div class="container">
-    <div class="header">
-      <div class="full-name">
-        <span class="first-name">Oliver</span> 
-        <span class="last-name">White</span>
-      </div>
-      <div class="contact-info">
-        <span class="email">Email: </span>
-        <span class="email-val">oliver.sterling.white@gmail.com</span>
-        <span class="separator"></span>
-        <span class="phone">Phone: </span>
-        <span class="phone-val">111-222-3333</span>
-      </div>
-      
-      <div class="about">
-        <span class="position">Data Scientist </span>
-        <span class="desc">
-          Description... 
-        </span>
-      </div>
-    </div>
-     <div class="details">
-      <div class="section">
-        <div class="section__title">Experience</div>
-        <div class="section__list">
-          <div class="section__list-item">
-            <div class="left">
-              <div class="name">CompanyName</div>
-              <div class="addr">Location</div>
-              <div class="duration">Date - Date</div>
-            </div>
-            <div class="right">
-              <div class="name">Fr developer</div>
-              <div class="desc">did This and that</div>
-            </div>
-          </div>
-                  <div class="section__list-item">
-            <div class="left">
-              <div class="name">Akount</div>
-              <div class="addr">San Monica, CA</div>
-              <div class="duration">Jan 2011 - Feb 2015</div>
-            </div>
-            <div class="right">
-              <div class="name">Fr developer</div>
-              <div class="desc">did This and that</div>
-            </div>
-          </div>
-  
-        </div>
-      </div>
-      <div class="section">
-        <div class="section__title">Education</div>
-        <div class="section__list">
-          <div class="section__list-item">
-            <div class="left">
-              <div class="name">Sample Institute of technology</div>
-              <div class="addr">San Fr, CA</div>
-              <div class="duration">Jan 2011 - Feb 2015</div>
-            </div>
-            <div class="right">
-              <div class="name">Fr developer</div>
-              <div class="desc">did This and that</div>
-            </div>
-          </div>
-          <div class="section__list-item">
-            <div class="left">
-              <div class="name">Akount</div>
-              <div class="addr">San Monica, CA</div>
-              <div class="duration">Jan 2011 - Feb 2015</div>
-            </div>
-            <div class="right">
-              <div class="name">Fr developer</div>
-              <div class="desc">did This and that</div>
-            </div>
-          </div>
-  
-        </div>
-        
-    </div>
-       <div class="section">
-        <div class="section__title">Projects</div> 
-         <div class="section__list">
-           <div class="section__list-item">
-             <div class="name">DSP</div>
-             <div class="text">I am a front-end developer with more than 3 years of experience writing html, css, and js. I'm motivated, result-focused and seeking a successful team-oriented company with opportunity to grow.</div>
-           </div>
-           
-           <div class="section__list-item">
-                      <div class="name">DSP</div>
-             <div class="text">I am a front-end developer with more than 3 years of experience writing html, css, and js. I'm motivated, result-focused and seeking a successful team-oriented company with opportunity to grow. <a href="/login">link</a>
-             </div>
-           </div>
-         </div>
-      </div>
-       <div class="section">
-         <div class="section__title">Skills</div>
-         <div class="skills">
-           <div class="skills__item">
-             <div class="left"><div class="name">
-               Javascript
-               </div></div>
-             <div class="right">
-                            <input  id="ck1" type="checkbox" checked/>
-  
-               <label for="ck1"></label>
-                            <input id="ck2" type="checkbox" checked/>
-  
-                <label for="ck2"></label>
-                           <input id="ck3" type="checkbox" />
-  
-                <label for="ck3"></label>
-                             <input id="ck4" type="checkbox" />
-              <label for="ck4"></label>
-                            <input id="ck5" type="checkbox" />
-                <label for="ck5"></label>
-  
-             </div>
-           </div>
-           
-         </div>
-         <div class="skills__item">
-             <div class="left"><div class="name">
-               CSS</div></div>
-             <div class="right">
-                            <input  id="ck1" type="checkbox" checked/>
-  
-               <label for="ck1"></label>
-                            <input id="ck2" type="checkbox" checked/>
-  
-                <label for="ck2"></label>
-                           <input id="ck3" type="checkbox" />
-  
-                <label for="ck3"></label>
-                             <input id="ck4" type="checkbox" />
-              <label for="ck4"></label>
-                            <input id="ck5" type="checkbox" />
-                <label for="ck5"></label>
-  
-             </div>
-           </div>
-           
-         </div>
-       <div class="section">
-       <div class="section__title">
-         Interests
-         </div>
-         <div class="section__list">
-           <div class="section__list-item">
-                    Football, programming.
-            </div>
-         </div>
-       </div>
-       </div>
-    </div>
-  </div>
-<img src="Resume_Updated_1.jpg" alt="Resume">
-<h2>Curriculum Vitae</h2>
-<p>You can download my CV <a href="Oliver_White_CV.pdf">here</a>.</p>
-<p>Thank you for taking the time to visit my webpage. If you have any questions or would like to discuss potential opportunities, please don't hesitate to contact me at [Your Email Address].</p>
-
-<embed src="Oliver_White_CV.pdf" width="800px" height="2100px", max-width: 100% />
