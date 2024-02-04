@@ -1,99 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
-    <link rel="stylesheet" href="your-pre-styled-theme.css"> <!-- Link to your pre-styled CSS theme -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #000000; /* Text color compatible with the pre-styled theme */
-        }
-        .header {
-            text-align: center;
-            padding: 40px 0;
-            background-color: #333333; /* Header background color compatible with the pre-styled theme */
-            color: #ffffff; /* Header text color compatible with the pre-styled theme */
-        }
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 2fr; /* Two columns with the left one being 1/3 the size of the right */
-            padding: 20px;
-        }
-        h1, h2, h3, h4, h5 {
-            margin-bottom: 10px;
-        }
-        p {
-            margin: 10px 0;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .left-column {
-            padding-right: 20px;
-        }
-        .content {
-            padding: 20px;
-        }
-        .education, .experience, .skills {
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
+---
+layout: page
+title: about
+show_title: true
+key: page-about
+---
 
-    <div class="header">
-        <h1>Your Name</h1>
-        <p>Web Developer</p>
+<div class="header">
+    <h1>Your Name</h1>
+    <p>Web Developer</p>
+</div>
+
+<div class="container">
+    <div class="left-column">
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>LinkedIn: linkedin.com/in/yourname</p>
+            <p>GitHub: github.com/yourusername</p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <p><strong>Degree in Computer Science</strong></p>
+            <p>University Name, Graduation Year</p>
+        </section>
     </div>
 
-    <div class="container">
-        <div class="left-column">
-            <section class="contact">
-                <h2>Contact Information</h2>
-                <p>Email: your.email@example.com</p>
-                <p>Phone: (123) 456-7890</p>
-                <p>LinkedIn: linkedin.com/in/yourname</p>
-                <p>GitHub: github.com/yourusername</p>
-            </section>
+    <div class="content">
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <p><strong>Web Developer</strong></p>
+            <p>Company Name, Start Date - End Date</p>
+            <ul>
+                <li>Responsibility/Accomplishment 1</li>
+                <li>Responsibility/Accomplishment 2</li>
+            </ul>
+        </section>
 
-            <section class="education">
-                <h2>Education</h2>
-                <p><strong>Degree in Computer Science</strong></p>
-                <p>University Name, Graduation Year</p>
-            </section>
-        </div>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript, jQuery</li>
+                <li>Responsive Web Design</li>
+                <li>Version Control (Git)</li>
+                <li>Web Development Frameworks (e.g., Bootstrap)</li>
+            </ul>
+        </section>
 
-        <div class="content">
-            <section class="experience">
-                <h2>Work Experience</h2>
-                <p><strong>Web Developer</strong></p>
-                <p>Company Name, Start Date - End Date</p>
-                <ul>
-                    <li>Responsibility/Accomplishment 1</li>
-                    <li>Responsibility/Accomplishment 2</li>
-                </ul>
-            </section>
-
-            <section class="skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML5, CSS3</li>
-                    <li>JavaScript, jQuery</li>
-                    <li>Responsive Web Design</li>
-                    <li>Version Control (Git)</li>
-                    <li>Web Development Frameworks (e.g., Bootstrap)</li>
-                </ul>
-            </section>
-
-            <footer>
-                <p>References available upon request</p>
-            </footer>
-        </div>
+        <footer>
+            <p>References available upon request</p>
+        </footer>
     </div>
-
-</body>
+</div>
