@@ -1,8 +1,20 @@
 ---
-layout: page
+layout: articles
 title: about
-show_title: true
 key: page-about
+show_title: true
+data_source: site.posts
+articles:
+  type: brief
+  show_info: true
+  excerpt_type: html
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(225deg, rgba(0, 0, 0 , .4), rgba(255, 255, 255, .1))'
+    src: screenshot.jpg
 ---
 
 <head>
@@ -40,7 +52,7 @@ key: page-about
             padding-right: 20px;
         }
         .vertical-line {
-            border-right: 2px solid #000000; /* Vertical line color */
+            border-right: 2px solid #004e53; /* Vertical line color */
             margin-right: 20px;
         }
         .content {
