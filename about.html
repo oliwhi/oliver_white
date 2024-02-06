@@ -96,6 +96,15 @@ Under Construction...
             margin: 1em 0;
             padding: 0;
         }
+        .column-container {
+        display: flex;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #004e53;
+        }
     </style>
 </head>
 <body>
@@ -114,25 +123,25 @@ Under Construction...
 
     <hr>
     <h2>Education</h2>
-    <div class="education">
+    <div class="container">
         <hr>
-        <div class="education-left">
+        <div class="column">
             <h4><strong>BSc Physics</strong></h4>
                 <h5>Minor in Nanotechnology</h5>
                 <p>University of Calgary, 2020</p>
         </div>
 
         <div class="vertical-line-section"></div>
-        <div class="education-mid">
 
+        <div class="column">
             <h4><strong>BSc Natural Sciences</strong></h4>
                 <h5>Double Concentation in <br>Energy Science & Mathematics</h5>
                 <p>University of Calgary, 2020</p>
         </div>
 
         <div class="vertical-line-section"></div>
-        <div class="education-right">
-
+        
+        <div class="column">
             <h4><strong>MSc Electrical Engineering</strong></h4>
                 <h5>Thesis Based:<br>Extremely Low Frequency Detection for Biometric Sensing</h5>
                 <p>University of Calgary, 2023</p>
