@@ -60,7 +60,23 @@ Under Construction...
             list-style-type: none;
             padding: 0;
         }
-        .education, .experience, .skills {
+        .education {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 20px 20px;
+            background-color: #202020; /* headline background color compatible with the pre-styled theme */
+            color: #ffffffd3; /* headline text color compatible with the pre-styled theme */
+        } 
+        .education-left {
+            text-align: left;
+        }
+        .education-mid {
+            text-align: left;
+        }
+        .education-right {
+            text-align: left;
+        }
+        .experience, .skills {
             margin-bottom: 20px;
         }
         .contact-icons {
@@ -82,7 +98,24 @@ Under Construction...
             <i class="fab fa-github"></i> github.com/yourusername
         </div>
     </div>
-
+    <div class="education">
+        <h2>Education</h2>
+        <div class="education-left">
+            <h4><strong>BSc Physics</strong></h4>
+                <h5>Minor in Nanotechnology</h5>
+                <p>University of Calgary, 2020</p>
+        </div>
+        <div class="education-mid">
+            <h4><strong>BSc Natural Sciences</strong></h4>
+                <h5>Double Concentation in <br>Energy Science & Mathematics</h5>
+                <p>University of Calgary, 2020</p>
+        </div>
+        <div class="education-right">
+            <h4><strong>MSc Electrical Engineering</strong></h4>
+                <h5>Thesis Based:<br>Extremely Low Frequency Detection for Biometric Sensing</h5>
+                <p>University of Calgary, 2023</p>
+        </div>
+    </div>
     <div class="container">
         <div class="left-column">
             <section class="education">
