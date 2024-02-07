@@ -10,15 +10,15 @@ aside:
   toc: true
 ---
 
-# Background
+## Background
 Dense Plasma Focus (DPF) Devices are fusion reactors that use plasma effects of high density current arcs to perform nuclear fusion.
 
-# Current Technologies
+## Current Technologies
 
 blag
 
 
-# Potential Applications
+## Potential Applications
 
 blag
 
