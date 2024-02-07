@@ -10,7 +10,7 @@ header:
       # @start locale config
       en      : &EN       posts
       # @end locale config
-    url: /projects.html
+    url: /posts.html
 
   # - titles:
   #     # @start locale config
