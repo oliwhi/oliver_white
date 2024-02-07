@@ -20,3 +20,38 @@ article_header:
 ---
 
 List of posts...
+
+<p> 
+    <br>
+    </p>
+    <div class="article-list items items--divided">
+      {%- for _article in site.posts -%}
+        {%- include snippets/prepend-baseurl.html path=_article.url -%}
+        {%- assign _article_url = __return -%}
+        <article class="item" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="item__content">
+            <header><a href="{{ _article_url }}"><h2 itemprop="headline" class="item__header">{{ _article.title }}</h2></a></header>
+            <div class="item__description">
+            <div class="article__content" itemprop="description articleBody">
+            {{ _article.excerpt }}
+            </div>
+            <p><a href="{{ _article_url }}">Read more</a></p>
+            </div>
+            {%- include snippets/assign.html target=site.data.variables.default.page.pageview source0=_article.pageview -%}
+            {%- assign _show_pageview = __return -%}
+            {%- include article-info.html article=_article show_pageview=_show_pageview -%}
+        </div>
+        </article>
+
+        {%- assign _tags = '' -%}
+        {%- for _tag in _article.tags -%}
+        {%- assign _tag_encode = _tag | strip | url_encode -%}
+        {%- if forloop.last -%}
+            {%- assign _tags = _tags | append: _tag_encode -%}
+        {%- else -%}
+            {%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
+        {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    </div>
+    
