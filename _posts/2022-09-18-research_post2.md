@@ -4,7 +4,7 @@ title: Dense Plasma Focus Fusion Thruster
 show_title: true
 show_edit_on_github: false
 tags: Projects
-catagory: projects
+catagory: post
 key: page-sidebar
 aside:
   toc: true
