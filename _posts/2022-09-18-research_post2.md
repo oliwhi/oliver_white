@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Research Post 2
+title: Dense Plasma Focus Fusion Thruster
 show_title: true
 show_edit_on_github: false
 tags: Projects
@@ -10,18 +10,15 @@ aside:
   toc: true
 ---
 
+# Background
+Dense Plasma Focus (DPF) Devices are fusion reactors that use plasma effects of high density current arcs to perform nuclear fusion.
 
-This is research on such and such
-
-<!--more-->
-
-# Research Post 1 h1
-blag
-
+# Current Technologies
 
 blag
 
-## header 2
 
+# Potential Applications
 
-# head 1 - 2
+blag
+

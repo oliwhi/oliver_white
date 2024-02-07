@@ -3,11 +3,11 @@ layout: article
 title: The Body and Light
 show_title: true
 show_edit_on_github: false
-tags: Projects
+tags: Science, Philosophy
 catagory: projects
 key: page-sidebar
 excerpt: >
-  Research post body and light excerpt
+  Post exerpt...
 aside:
   toc: true
 ---

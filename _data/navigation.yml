@@ -5,21 +5,27 @@ header:
       # @end locale config
     url: /index.html
 
-    
+
   - titles:
       # @start locale config
-      en      : &EN       projects
+      en      : &EN       posts
       # @end locale config
     url: /projects.html
 
-  - titles:
-      en      : &EN       writing
-    url: /writing.html
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       projects
+  #     # @end locale config
+  #   url: /projects.html
+
+  # - titles:
+  #     en      : &EN       writing
+  #   url: /writing.html
     
     
-  - titles:
-      en      : &EN       art
-    url: /art.html
+  # - titles:
+  #     en      : &EN       art
+  #   url: /art.html
     
 
   - titles:
